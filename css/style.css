@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Black 900";
+}
+.nav-link,
+p {
+  font-family: "Montserrat-Light";
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* ----Heading----- */
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* ----sections--- */
+.colored-bg {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-bg {
+  background-color: #fff;
+}
+/* ----icons--- */
+.body-icon {
+  color: #ef8172;
+}
+.body-icon:hover {
+  color: #ff4c68;
+}
+/* ----Title section----- */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/*----- Navbar------ */
+.navbar {
+  padding-bottom: 3.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.3rem;
+}
+/*---- Download button------- */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+/*----- Title Image----- */
+.title-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 50%;
+}
+
+/* --------Features------ */
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 3%;
+}
+.feature-title {
+  font-size: 2rem;
+}
+#features .icon {
+  margin-bottom: 10px;
+}
+
+/* ------Testimonials----- */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  width: 11%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* ----Press---- */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* -----Pricing----- */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.signup-btn {
+  width: 100%;
+}
+.price-text {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.dog-breed {
+  font-size: 3rem;
+}
+/* ---footer---- */
+#footer .icons {
+  margin: 23px 13px;
+  font-size: 1.5rem;
+}
+/* -----Media Query----- */
+@media (max-width: 1155px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 65%;
+  }
+  .big-heading{
+    font-size: 3rem;
+  }
+  .section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .price-text{
+    font-size: 3rem;
+  }
+  .testimonial-text{
+    font-size: 2.5rem;
+  }
+  .press-img{
+    width: 25%;
+  }
+  .testimonial-image{
+    width: 20%;
+  }
+}
